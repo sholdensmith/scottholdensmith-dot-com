@@ -32,6 +32,16 @@ img {
   display: none;
 }
 
+/* HOME STYLES */
+.home-body {
+  background-color: #1c125a;
+  color: white;
+}
+
+a {
+  color: yellow;
+}
+
 /* POWR STYLES  */
 
 .powr {
