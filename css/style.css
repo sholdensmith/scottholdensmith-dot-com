@@ -38,8 +38,33 @@ img {
   color: white;
 }
 
-a {
-  color: yellow;
+header > h1,
+h2 {
+  margin: 20px;
+}
+
+.card {
+  border: 1px white solid;
+  background-color: palegreen;
+  color: black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 20px;
+  width: 50%;
+  position: absolute;
+}
+
+.card > a {
+  /* display: block; */
+  position: relative;
+  top: 10px;
+  width: 100px;
+  height: 33px;
+  padding: 10px;
+  text-decoration: none;
+  background-color: red;
+  border-radius: 5px;
+  text-align: center;
 }
 
 /* POWR STYLES  */
@@ -49,7 +74,8 @@ a {
 }
 
 .breathing-gif {
-  width: 200px;
+  width: 300px;
+  margin: auto;
 }
 
 /* FUTURE PLANS STYLES */
