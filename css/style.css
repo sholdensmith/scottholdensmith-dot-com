@@ -1,38 +1,37 @@
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
+/* 
+https://colorhunt.co/palette/226115
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
+#111d5e
+#c70039
+#f37121
+#c0e218
+#fffff0
 
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+*/
+
+/* GLOBAL STYLES */
+
+* {
   margin: 0;
   padding: 0;
-  font-weight: normal;
-  font-family: 'Source Sans Pro', sans-serif;
+  box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #777;
 }
 
 .hidden {
   display: none;
 }
 
-/* HOME STYLES */
+/*
+
+HOME STYLES
 .home-body {
   background-color: #1c125a;
   color: white;
@@ -55,7 +54,6 @@ h2 {
 }
 
 .card > a {
-  /* display: block; */
   position: relative;
   top: 10px;
   width: 100px;
@@ -66,6 +64,8 @@ h2 {
   border-radius: 5px;
   text-align: center;
 }
+
+*/
 
 /* POWR STYLES  */
 
