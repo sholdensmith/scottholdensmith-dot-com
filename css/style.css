@@ -29,18 +29,62 @@ body {
   display: none;
 }
 
+/* HOME STYLES */
+
+.heading {
+  color: white;
+  height: 50vh;
+  background-image: linear-gradient(to right bottom, #1858e28a, #f3722100),
+    url(../images/ferns.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.heading-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3.75rem;
+  font-weight: 200;
+  letter-spacing: 0rem;
+}
+
+.link--no-underline {
+  text-decoration: none;
+  color: aqua;
+}
+
+/* POEM STYLES */
+
+.poem {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.poem--title {
+  font-size: 3rem;
+}
+
+.poem--author {
+  font-size: 2rem;
+}
+
+.author {
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+}
+
+.poem--main {
+  font-size: 1.4rem;
+}
+
 /*
 
-HOME STYLES
-.home-body {
-  background-color: #1c125a;
-  color: white;
-}
-
-header > h1,
-h2 {
-  margin: 20px;
-}
 
 .card {
   border: 1px white solid;
@@ -79,7 +123,7 @@ h2 {
 }
 
 /* FUTURE PLANS STYLES */
-
+/* 
 .future-adds {
   background-color: lightyellow;
-}
+} */
