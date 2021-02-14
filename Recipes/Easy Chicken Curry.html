@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://static01.nyt.com/images/2018/03/01/dining/01COOKING-CHICKEN-CURRY1/01COOKING-CHICKEN-CURRY1-articleLarge.jpg">
+                <img src="Images/5CF79369-68DF-43BD-B3BE-ADE0DEF7482B-60262-000007165C710D0B/D8B8B702-76BD-4180-A864-0A9F09140BFA-60262-000007165EDF8552.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Easy Chicken Curry</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Cook Time: </b><span itemprop="cookTime">30 minutes</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">Yield 4 servings</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://cooking.nytimes.com/recipes/6393-easy-chicken-curry?action=click&amp;module=Global%20Search%20Recipe%20Card&amp;pgType=search&amp;rank=8">
+                        <span itemprop="author">cooking.nytimes.com</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons canola, corn or other neutral oil</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> large onions, peeled and sliced</p><p class="line" itemprop="recipeIngredient">Salt and freshly ground black pepper to taste</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons curry powder</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> can unsweetened coconut milk (1 1/2 to 2 cups)</p><p class="line" itemprop="recipeIngredient"><strong>1 ½</strong> pounds peeled shrimp or boneless chicken, cut into 3/4- to 1-inch chunks</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> cup peeled, seeded and diced tomato (canned is fine; cut up and drain before using)</p><p class="line" itemprop="recipeIngredient">Chopped basil or mint for garnish (optional)</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Place oil in a large skillet; turn heat to medium-high. A minute later, add onions, along with a generous pinch of salt and some pepper. Cook, stirring occasionally, until onions are very soft and almost falling apart, 15 minutes or more. Stir in curry powder, and cook, stirring, for another minute or so.</p><p class="line">Add coconut milk, and cook until it thickens, about 2 minutes, stirring occasionally. Add chicken, and stir, then cook until done, 3 to 6 minutes. (If you use shrimp, keep in mind that it cooks a little faster than chicken; if you are in doubt about whether chicken is done, cut into a piece.)</p><p class="line">Add tomato, and cook another minute; adjust seasonings as necessary. Serve over rice, garnished with basil or mint, if desired.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

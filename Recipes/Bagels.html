@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="https://www.kingarthurbaking.com/sites/default/files/styles/featured_image/public/recipe_legacy/6211-3-large.jpg?itok=MNLL1Vv6">
+                <img src="Images/4FCBCA27-AF90-490A-89BC-5BC63A32B393-90454-000285E10E40DDDC/1CFC4FF1-72C4-4C24-8975-7BB9D5542F63-90454-000285E4F5A28621.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">Bagels</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="0"></p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+            <b>Prep Time: </b><span itemprop="prepTime">30 mins</span>
+            
+            <b>Cook Time: </b><span itemprop="cookTime">20 to 25 mins</span>
+            
+            <b>Servings: </b><span itemprop="recipeYield">8 to 12 bagels</span>
+            
+
+            <!-- Source -->
+            
+                <b>Source: </b>
+                
+                    <a itemprop="url" href="https://www.kingarthurbaking.com/recipes/bagels-recipe">
+                        <span itemprop="author">kingarthurbaking.com</span>
+                    </a>
+                
+                
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient"><strong>Dough</strong></p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (9g) instant yeast</p><p class="line" itemprop="recipeIngredient"><strong>4</strong> cups (482g) King Arthur Unbleached Bread Flour</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> teaspoons salt</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (14g) non-diastatic malt powder, brown sugar, or barley malt syrup</p><p class="line" itemprop="recipeIngredient"><strong>1 1/3</strong> cups (303g) lukewarm water</p><br/><p class="line" itemprop="recipeIngredient"><strong>Water bath</strong></p><p class="line" itemprop="recipeIngredient"><strong>2</strong> quarts (1814g) water</p><p class="line" itemprop="recipeIngredient"><strong>2</strong> tablespoons (28g) non-diastatic malt powder or brown sugar or barley malt syrup</p><p class="line" itemprop="recipeIngredient"><strong>1</strong> tablespoon (14g) granulated sugar</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">Combine all of the dough ingredients and knead vigorously for 10 minutes (if you&apos;re using an electric mixer) or up to 15 minutes (if you&apos;re kneading by hand). Since we&apos;re using a high-protein bread flour here, it takes a bit more effort and time to develop the gluten. The dough will be quite stiff; if you&apos;re using a mixer it will &quot;thwap&quot; the sides of the bowl, and hold its shape (without spreading at all) when you stop the mixer.</p><p class="line">Place the dough in a lightly greased bowl, cover, and set it aside to rise until it&apos;s noticeably puffy though not necessarily doubled in bulk, 1 to 1 1/2 hours.</p><p class="line">Lightly grease two baking sheets, or line them with parchment and grease the parchment. Transfer the dough to a work surface, and divide it into eight pieces (for large bagels), or 12 pieces (for standard-size bagels).</p><p class="line">Working with one piece at a time, roll it into a smooth, round ball. Place the balls on one of the prepared baking sheets. Cover the balls with plastic wrap, and let them rest for 30 minutes. They&apos;ll puff up very slightly.</p><p class="line">While the dough is resting, prepare the water bath by heating the water, malt, and sugar to a very gentle boil in a large, wide-diameter pan. Preheat your oven to 425°F.</p><p class="line">Use your index finger to poke a hole through the center of each ball, then twirl the dough on your finger to stretch the hole until it&apos;s about 1 1/2&quot; to 2&quot; in diameter. Place six bagels on each of the baking sheets.</p><p class="line">Transfer the bagels, four at a time if possible, to the simmering water. Increase the heat under the pan to bring the water back up to a gently simmering boil, if necessary. Cook the bagels for 2 minutes, flip them over, and cook 1 minute more. Using a skimmer or strainer, remove the bagels from the water and place them back on the baking sheet. Repeat with the remaining bagels.</p><p class="line">Bake the bagels for 20 to 25 minutes, or until they&apos;re as deep brown as you like, turning them over about 15 minutes into the baking time (this will help them remain tall and round). Remove the bagels from the oven, and cool completely on a rack.</p><p class="line">Tips from our Bakers</p><p class="line">Bake it better! Watch King Arthur baker/blogger Kye Ameden demonstrate one of the techniques from this recipe: How to Shape Bagels</p><p class="line">To make onion-topped bagels, bake bagels for 20 to 22 minutes (or until they&apos;re almost as brown as you like), and remove the pan from the oven, keeping the oven turned on. Working with one bagel at a time, glaze as instructed above, and sprinkle with minced, dried onion. Return the bagels to the oven for no more than 2 minutes (the onions will burn if the bagels are left in longer than that).</p><p class="line">Want to make cinnamon-raisin bagels? Knead about 2/3 cup of raisins into the dough toward the end of the kneading process. Just before you&apos;re done kneading, sprinkle your work surface heavily with cinnamon-sugar, and give the dough a few more turns; it&apos;ll pick up the cinnamon-sugar in irregular swirls. Divide the dough into pieces, form each piece into a ball, and roll each ball in additional cinnamon-sugar. Proceed to let rest and shape as directed above.</p><p class="line">Variations: To make sesame seed or poppy seed (or other seed) bagels, brush each bagel, just before baking, with a glaze made of 1 egg white beaten until frothy with 1 tablespoon of water. Glaze each bagel, and sprinkle heavily with seeds.</p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+
+
+
+    </body>
+</html>

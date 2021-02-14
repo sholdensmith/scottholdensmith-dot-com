@@ -1,12 +1,6 @@
 /* 
 https://colorhunt.co/palette/226115
 
-#111d5e
-#c70039
-#f37121
-#c0e218
-#fffff0
-
 */
 
 /* GLOBAL STYLES */
@@ -46,9 +40,8 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 3.75rem;
+  font-size: 2.75rem;
   font-weight: 200;
-  letter-spacing: 0rem;
 }
 
 .link--no-underline {
@@ -76,11 +69,11 @@ body {
 
 .author {
   font-size: 1.3rem;
-  padding-bottom: 2rem;
 }
 
 .poem--main {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  margin-top: 2rem;
 }
 
 /*
