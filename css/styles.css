@@ -2,9 +2,7 @@
 https://colorhunt.co/palette/226115
 
 */
-
 /* GLOBAL STYLES */
-
 * {
   margin: 0;
   padding: 0;
@@ -24,12 +22,10 @@ body {
 }
 
 /* HOME STYLES */
-
 .heading {
   color: white;
   height: 50vh;
-  background-image: linear-gradient(to right bottom, #1858e28a, #f3722100),
-    url(../images/ferns.jpg);
+  background-image: linear-gradient(to right bottom, #1858e28a, #f3722100), url(../images/ferns.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -44,13 +40,12 @@ body {
   font-weight: 200;
 }
 
-.link--no-underline {
+.heading-link--no-underline {
   text-decoration: none;
   color: aqua;
 }
 
 /* POEM STYLES */
-
 .poem {
   background-color: black;
   height: 100vh;
@@ -67,45 +62,16 @@ body {
   font-size: 2rem;
 }
 
-.author {
-  font-size: 1.3rem;
-}
-
 .poem--main {
   font-size: 1.6rem;
   margin-top: 2rem;
 }
 
-/*
-
-
-.card {
-  border: 1px white solid;
-  background-color: palegreen;
-  color: black;
-  border-radius: 5px;
-  padding: 15px;
-  margin-left: 20px;
-  width: 50%;
-  position: absolute;
+.author {
+  font-size: 1.3rem;
 }
-
-.card > a {
-  position: relative;
-  top: 10px;
-  width: 100px;
-  height: 33px;
-  padding: 10px;
-  text-decoration: none;
-  background-color: red;
-  border-radius: 5px;
-  text-align: center;
-}
-
-*/
 
 /* POWR STYLES  */
-
 .powr {
   background-color: #e5e9ec;
 }
@@ -114,9 +80,4 @@ body {
   width: 300px;
   margin: auto;
 }
-
-/* FUTURE PLANS STYLES */
-/* 
-.future-adds {
-  background-color: lightyellow;
-} */
+/*# sourceMappingURL=styles.css.map */
