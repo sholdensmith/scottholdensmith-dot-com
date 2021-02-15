@@ -10,7 +10,7 @@ https://colorhunt.co/palette/226115
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -25,12 +25,11 @@ body {
 .heading {
   color: white;
   height: 50vh;
-  background-image: linear-gradient(to right bottom, #1858e28a, #f3722100), url(../images/ferns.jpg);
+  background-image: linear-gradient(to right bottom, rgba(24, 88, 226, 0.541), #f3722100), url(../images/ferns.jpg);
   background-size: cover;
   background-position: center;
   position: relative;
 }
-
 .heading-text {
   position: absolute;
   top: 50%;
@@ -39,7 +38,6 @@ body {
   font-size: 2.75rem;
   font-weight: 200;
 }
-
 .heading-link--no-underline {
   text-decoration: none;
   color: aqua;
@@ -53,15 +51,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .poem--title {
   font-size: 3rem;
 }
-
 .poem--author {
   font-size: 2rem;
 }
-
 .poem--main {
   font-size: 1.6rem;
   margin-top: 2rem;
@@ -80,4 +75,5 @@ body {
   width: 300px;
   margin: auto;
 }
+
 /*# sourceMappingURL=styles.css.map */

@@ -3,8 +3,9 @@ https://colorhunt.co/palette/226115
 
 */
 
-/* GLOBAL STYLES */
+$color-primary: #1858e2;
 
+/* GLOBAL STYLES */
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +29,11 @@ body {
 .heading {
   color: white;
   height: 50vh;
-  background-image: linear-gradient(to right bottom, #1858e28a, #f3722100),
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(#1858e2, 0.541),
+      #f3722100
+    ),
     url(../images/ferns.jpg);
   background-size: cover;
   background-position: center;
