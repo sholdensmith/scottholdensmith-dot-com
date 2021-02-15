@@ -1,0 +1,20 @@
+{
+  "name": "scottholdensmith-dot-com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sholdensmith/scottholdensmith-dot-com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sholdensmith/scottholdensmith-dot-com/issues"
+  },
+  "homepage": "https://github.com/sholdensmith/scottholdensmith-dot-com#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
