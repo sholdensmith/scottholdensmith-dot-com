@@ -1,0 +1,24 @@
+.poem {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--title {
+    font-size: 3rem;
+  }
+
+  &--author {
+    font-size: 2rem;
+  }
+
+  &--main {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+  }
+}
+
+.author {
+  font-size: 1.3rem;
+}
